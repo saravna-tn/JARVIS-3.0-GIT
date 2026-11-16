@@ -1,0 +1,18 @@
+Olama AI integration✅
+Conversation Memory✅
+Text to speech✅
+Speech to text✅
+Speech on off button✅
+Better UI UX✅
+Clear chat under new chat button✅
+Firebase integration
+   1. Database creation✅
+   2. Firebase Authentication (Google Sign In)✅
+Fall back feature
+Chat menu
+Wake up word 
+Controlling system Applications
+Good voice
+Using other applications in system without human control like Astra 6
+Analyzing anything in the screen
+Conversation mode	

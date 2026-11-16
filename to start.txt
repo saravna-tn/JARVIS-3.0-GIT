@@ -1,0 +1,14 @@
+Frontend Running code Past this in terminal
+
+npm.cmd run dev
+
+
+
+Backend Running code Past this in terminal 
+
+cd D:\JARVIS_3.0\server
+node index.js
+
+
+
+

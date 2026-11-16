@@ -1,0 +1,32 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00eaff"></stop>
+      <stop offset="100%" stop-color="#087cff"></stop>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer circular reactor -->
+  <circle cx="50" cy="50" r="39" fill="#061326" stroke="#087cff" stroke-width="2"></circle>
+  <circle cx="50" cy="50" r="33" fill="none" stroke="#00cfff" stroke-width="2.5"></circle>
+  <circle cx="50" cy="50" r="25" fill="#09264b" stroke="#087cff" stroke-width="2"></circle>
+
+  <!-- Segmented outer ring -->
+  <g fill="url(#blue)">
+    <path d="M44 12h12l-2 8h-8z"></path>
+    <path d="M70 21l8 8-7 5-6-6z"></path>
+    <path d="M88 44v12l-8-2v-8z"></path>
+    <path d="M79 70l-8 8-5-7 6-6z"></path>
+    <path d="M56 88H44l2-8h8z"></path>
+    <path d="M30 79l-8-8 7-5 6 6z"></path>
+    <path d="M12 56V44l8 2v8z"></path>
+    <path d="M21 30l8-8 5 7-6 6z"></path>
+  </g>
+
+  <!-- Inner luminous core -->
+  <circle cx="50" cy="50" r="17" fill="#00bfff" opacity=".18"></circle>
+  <path d="M29 39h42L50 73z" fill="#00cfff" stroke="#39eaff" stroke-width="2" stroke-linejoin="round"></path>
+  <path d="M37 43h26L50 65z" fill="#d9ffff"></path>
+  <path d="M42 35h16" stroke="#7af5ff" stroke-width="2" stroke-linecap="round"></path>
+</svg>
